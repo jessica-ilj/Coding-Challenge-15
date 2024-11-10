@@ -6,7 +6,7 @@ export const assets = [
   { id: 4, name: 'Bitcoin', type: 'cryptocurrency', price: 35000, quantity: 2 },
   { id: 5, name: 'Ethereum', type: 'cryptocurrency', price: 2400, quantity: 10 },
   { id: 6, name: 'Gold', type: 'commodity', price: 1800, quantity: 5 },
-  { id: 7, name: 'Wine (Château Lafite Rothschild)', type: 'collectible', price: 12000, quantity: 2 },
+  { id: 7, name: 'Wine (Chateau Lafite Rothschild)', type: 'collectible', price: 12000, quantity: 2 },
   { id: 8, name: 'Vanguard REIT ETF', type: 'ETF', price: 80, quantity: 50 },
   { id: 9, name: 'S&P 500 Index Fund', type: 'ETF', price: 400, quantity: 15 },
   { id: 10, name: 'Vintage Ferrari 250 GTO', type: 'luxury', price: 70000000, quantity: 1 },
