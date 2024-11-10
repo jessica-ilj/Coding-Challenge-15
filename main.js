@@ -2,7 +2,7 @@ import { calculatePortfolioValue, getPortfolioAllocation } from './portfolio.js'
 import { Transaction } from './transaction.js';
 
 // Display portfolio value
-console.log('Initial Portfolio Value: $' + calculatePortfolioValue().toFixed(2));
+console.log('Initial Portfolio Value: $' + calculatePortfolioValue());
 
 // Display portfolio allocation
 const allocation = getPortfolioAllocation();
@@ -24,7 +24,7 @@ try {
   console.log(`Bought 2 U.S. Treasury Bonds: ${buyBond}`);
 
   // Display updated portfolio value
-  console.log('Updated Portfolio Value: $' + calculatePortfolioValue().toFixed(2)); //rounding values to 2 decimal places.
+  console.log('Updated Portfolio Value: $' + calculatePortfolioValue());
 
   // Display updated portfolio allocation
   console.log('Updated Portfolio Allocation:');
